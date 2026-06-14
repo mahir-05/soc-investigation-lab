@@ -32,6 +32,7 @@ Each write-up follows the same layout: what triggered it, how I investigated, a 
 | 03 | [New local admin account created](investigations/03-new-admin-account.md) | T1136.001 Create Account | True positive |
 | 04 | [Suspicious service installed for persistence](investigations/04-persistence-service.md) | T1543.003 Windows Service | True positive |
 | 05 | [Suspicious process chain (shell spawning shell)](investigations/05-suspicious-process-chain.md) | T1059 Scripting Interpreter | True positive |
+| 06 | [Phishing email header analysis](investigations/06-phishing-header-analysis.md) | T1566 Phishing | True positive |
 
 ## What I'm getting out of it
 - Reading Windows Security and Sysmon logs and knowing which event IDs matter (4625, 4624, and so on)
