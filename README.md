@@ -31,7 +31,7 @@ Each write-up follows the same layout: what triggered it, how I investigated, a 
 | 02 | [Encoded PowerShell command execution](investigations/02-malicious-powershell.md) | T1059.001 PowerShell | True positive |
 | 03 | [New local admin account created](investigations/03-new-admin-account.md) | T1136.001 Create Account | True positive |
 | 04 | [Suspicious service installed for persistence](investigations/04-persistence-service.md) | T1543.003 Windows Service | True positive |
-More are on the way: malicious PowerShell, a service installed for persistence, a new local admin account being created, and a phishing email header analysis.
+| 05 | [Suspicious process chain (shell spawning shell)](investigations/05-suspicious-process-chain.md) | T1059 Scripting Interpreter | True positive |
 
 ## What I'm getting out of it
 - Reading Windows Security and Sysmon logs and knowing which event IDs matter (4625, 4624, and so on)
