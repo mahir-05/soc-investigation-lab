@@ -30,6 +30,7 @@ Each write-up follows the same layout: what triggered it, how I investigated, a 
 | 01 | [Brute force against a local account](investigations/01-brute-force.md) | T1110 Brute Force | True positive |
 | 02 | [Encoded PowerShell command execution](investigations/02-malicious-powershell.md) | T1059.001 PowerShell | True positive |
 | 03 | [New local admin account created](investigations/03-new-admin-account.md) | T1136.001 Create Account | True positive |
+| 04 | [Suspicious service installed for persistence](investigations/04-persistence-service.md) | T1543.003 Windows Service | True positive |
 More are on the way: malicious PowerShell, a service installed for persistence, a new local admin account being created, and a phishing email header analysis.
 
 ## What I'm getting out of it
